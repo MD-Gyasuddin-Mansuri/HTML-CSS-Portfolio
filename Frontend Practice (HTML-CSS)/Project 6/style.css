@@ -1,0 +1,267 @@
+:root {
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600: #1b0058;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+    --max-width: 1200px;
+    --min-width: 1200px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin: 52px;
+}
+
+/* Nav Bar */
+header {
+    background-color: var(--purple300);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: var(--max-width);
+    margin: 0 auto;
+    padding: 3px;
+}
+
+.logo {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.logo,
+nav li {
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 0 12px;
+    padding-top: 12px;
+}
+
+.nav-links ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    list-style: none;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-links li:hover {
+    border-bottom: 2px solid var(--body);
+    transition: 0.3s ease-in-out;
+}
+
+/* Hero Section */
+.hero-section {
+    color: var(--body);
+    height: 100vh;
+    background-image: url(images/hero_image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: var(--max-width);
+}
+
+.hero-text h1 {
+    font-size: 96px;
+}
+
+.hero-text h3 {
+    font-size: 27px;
+}
+
+.hero-text p {
+    font-size: 18px;
+}
+
+/* Music Section */
+.music-section {
+    height: 100vh;
+    width: auto;
+    background-color: var(--purple500);
+    color: var(--body);
+    padding-top: 50px;
+}
+
+.music-section h2 {
+    font-size: 32px;
+}
+
+.music-texts {
+    width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.main-texts {
+    text-align: center;
+}
+
+.music-lastText {
+    font-size: 14px;
+    color: grey;
+}
+
+button {
+    padding: 9px 12px;
+    border: none;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.78;
+    transition: 0.3s ease-in-out;
+}
+
+.btn1 {
+    background-color: var(--red600);
+    color: var(--body);
+}
+
+.btn2 {
+    background-color: var(--purple300);
+    color: var(--body);
+}
+
+/* Read More Section */
+.Read-more {
+    width: var(--max-width);
+    margin: 0 auto;
+}
+
+.ReadMore-Contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 470px;
+    gap: 27px;
+}
+
+.empty {
+    padding: 23px;
+}
+
+/* Availability Information Section*/
+.information {
+    height: 100vh;
+    background-image: url(images/video.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--body);
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.information-contents {
+    width: var(--max-width);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Gift Card Section */
+.giftCard-Contents {
+    width: var(--max-width);
+    padding: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.giftCard-texts {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8;
+    gap: 18px;
+}
+
+.borderline {
+    border: 0.5px solid rgb(157, 157, 157);
+}
+
+/* Footer */
+/* Upper Footer */
+footer {
+    background-color: var(--purple600);
+    color: var(--body);
+}
+
+.upper-footer {
+    padding: 38px 92px;
+    width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper-footer h4 {
+    border-bottom: 1px solid var(--body);
+    padding: 3px 0;
+}
+
+.upper-footer a {
+    text-decoration: none;
+    color: var(--body);
+}
+
+.upper-footer li {
+    list-style: none;
+}
+
+.upper-footer ul {
+    padding-top: 12px;
+}
+
+/* Lower Footer */
+.lower-footer {
+    background-color: var(--purple300);
+    padding: 12px;
+    text-align: center;
+    word-spacing: 1.6px;
+}

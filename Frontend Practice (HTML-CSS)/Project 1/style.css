@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: #E5E5FD;
+    border: 10px solid black;
+}
+
+.content{
+    max-width: 950px;
+    margin: auto;
+}
+
+.first_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    letter-spacing: 5px;
+    margin-bottom: 72px;
+}
+
+.mainImg, img{
+    height: 270px;
+    width: 270px;
+    border-radius: 7px;
+    box-shadow: 3px 5px 17px #888888;
+
+}
+
+.first_section h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.first_section h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+    margin-bottom: 14px;
+}
+
+.second_section{
+    text-align: justify;
+    margin-bottom: 52px;
+}
+
+.second_section h2{
+    font-size: 43px;
+    font-weight: bolder;
+    line-height: 2.1em;
+    letter-spacing: 2px;
+}
+
+.second_section p, .third_section li, .final_line{
+    font-size: 18px;
+    line-height: 1.6em;
+    letter-spacing: 1.6px;
+    font-weight: 500;
+}
+
+.third_section h3{
+    font-size: 21px;
+    line-height: 2.1em;
+}
+
+.third_section li{
+    margin-left: 27px;
+}
+
+.final_line{
+    text-align: end;
+    margin-top: 52px;
+    padding-right: 25px;
+    margin-bottom: 47px;
+
+}
+
+.final_line a{
+    text-decoration: none;
+    color: #0A4EFF;
+}

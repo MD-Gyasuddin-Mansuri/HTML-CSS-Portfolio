@@ -1,0 +1,248 @@
+/* Non Responsive (Due to some internal issues) */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+    box-shadow: 3px 3px 7px rgba(1, 1, 1, 0.1);
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    margin-bottom: 41px;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1250px;
+    margin: 0 auto;
+    padding: 7px;
+}
+
+.bars i {
+    font-size: 27px;
+}
+
+.nav-logo img,
+.bars i {
+    cursor: pointer;
+}
+
+/* Hero Section */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1201px;
+    margin: 0 auto;
+    gap: 101px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.main-text button {
+    align-self: flex-start;
+}
+
+.main-text h1 {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.main-text p {
+    font-weight: 350;
+}
+
+.button1 {
+    background-color: #149F39;
+    color: #fff;
+    border: none;
+    padding: 10px 21px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.button2 {
+    background-color: #FFC066;
+    color: #fff;
+    border: none;
+    padding: 14px 18px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+button {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
+}
+
+/* Hotel Features */
+.hotel-features {
+    max-width: 1098px;
+    margin: 100px auto;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.hotel-features img {
+    width: 50%;
+    height: auto;
+}
+
+.hotel-features p {
+    font-size: 14px;
+}
+
+.features {
+    display: flex;
+    gap: 21px;
+    padding: 21px;
+    margin-left: 14px;
+    transition: 0.3s ease-in-out;
+}
+
+.features:hover {
+    transition: 0.3s ease-in-out;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+}
+
+.divider {
+    border: 0.1px solid rgb(163, 163, 163);
+    margin-bottom: 52px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu h2 {
+    padding: 18px;
+    font-size: 36px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    margin-bottom: 54px;
+}
+
+/* Gallery */
+.gallery {
+    width: 1191px;
+    margin: 0 auto;
+    margin-bottom: 105px;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: "I1 I1 I2 I3"
+        "I1 I1 I2 I7"
+        "I4 I5 I6 I7";
+}
+
+.gallery img {
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.item1 {
+    grid-area: I1;
+}
+
+.item2 {
+    grid-area: I2;
+}
+
+.item3 {
+    grid-area: I3;
+}
+
+.item4 {
+    grid-area: I4;
+}
+
+.item5 {
+    grid-area: I5;
+}
+
+.item6 {
+    grid-area: I6;
+}
+
+.item7 {
+    grid-area: I7;
+    margin-top: 7px;
+}
+
+/* Footer */
+footer {
+    background-color: #FFF0DB;
+    padding: 36px;
+    color: rgb(73, 73, 73);
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+li:hover {
+    color: rgb(112, 112, 112);
+}
+
+.footer {
+    width: 1030px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h4 {
+    padding: 9px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer input {
+    padding: 7px 5px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-bottom: 12px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons i {
+    font-size: 23px;
+    cursor: pointer;
+    padding: 3px 0;
+}
+
+.social-texts h4 {
+    padding: 5px 0;
+}
